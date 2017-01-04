@@ -1,0 +1,80 @@
+/usr/bin/python2.7 /home/soloice/PycharmProjects/SVM_RC/src2/svm_test_full.py
+<type 'numpy.ndarray'>
+shape (full): (70000, 784) (70000,)
+(10000, 784) Counter({1.0: 1098, 2.0: 1043, 7.0: 1040, 9.0: 1037, 6.0: 1024, 3.0: 1014, 0.0: 978, 8.0: 972, 4.0: 927, 5.0: 867})
+(60000, 784) Counter({1.0: 6779, 7.0: 6253, 3.0: 6127, 2.0: 5947, 0.0: 5925, 9.0: 5921, 4.0: 5897, 8.0: 5853, 6.0: 5852, 5.0: 5446})
+(10000, 784) (10000,)
+Total Training time:  30.2058560848
+Total Predicting time:  231.573395014
+predicted classes: [ 2.  4.  9. ...,  3.  4.  9.]
+
+
+Classification report for classifier SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovo', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+        0.0       0.95      0.97      0.96      5925
+        1.0       0.92      0.98      0.95      6779
+        2.0       0.92      0.90      0.91      5947
+        3.0       0.91      0.88      0.89      6127
+        4.0       0.91      0.93      0.92      5897
+        5.0       0.88      0.87      0.88      5446
+        6.0       0.94      0.95      0.95      5852
+        7.0       0.94      0.92      0.93      6253
+        8.0       0.91      0.87      0.89      5853
+        9.0       0.89      0.89      0.89      5921
+
+avg / total       0.92      0.92      0.92     60000
+
+
+Confusion matrix:
+[[5737    1   19   19   14   41   38    4   45    7]
+ [   1 6632   34   18    8   25    7   12   34    8]
+ [  46   54 5339   64  100   20   87   72  139   26]
+ [  19   57  122 5416    8  231   26   63  135   50]
+ [  15   25   35    0 5482    4   45   13   18  260]
+ [  62   92   31  230   48 4762  105   11   67   38]
+ [  42   30   49    3   34   85 5586    0   23    0]
+ [  17   87   86   10   87   11    1 5727   18  209]
+ [  36  167   61  137   47  173   50   27 5073   82]
+ [  44   42   27   86  203   40    4  151   41 5283]]
+
+
+For training set!
+
+
+Classification report for classifier SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovo', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+        0.0       0.96      0.98      0.97       978
+        1.0       0.93      0.98      0.96      1098
+        2.0       0.94      0.91      0.92      1043
+        3.0       0.93      0.88      0.91      1014
+        4.0       0.91      0.94      0.92       927
+        5.0       0.89      0.91      0.90       867
+        6.0       0.94      0.97      0.95      1024
+        7.0       0.94      0.92      0.93      1040
+        8.0       0.92      0.88      0.90       972
+        9.0       0.90      0.91      0.91      1037
+
+avg / total       0.93      0.93      0.93     10000
+
+
+Confusion matrix:
+[[ 956    0    2    2    2    4    6    2    4    0]
+ [   0 1077    5    4    0    4    2    0    4    2]
+ [  12    4  947   10   16    2   18   11   21    2]
+ [   4    7   19  896    1   45    5    9   20    8]
+ [   1    4    3    0  870    0    6    3    2   38]
+ [   5   13    6   20    6  791   13    2    7    4]
+ [   5    5    5    0    7    9  989    0    4    0]
+ [   0   18    9    0   17    1    0  957    2   36]
+ [   4   24   12   10   10   27    8    4  860   13]
+ [   4    3    3   17   30    4    1   25    7  943]]
+
+Process finished with exit code 0

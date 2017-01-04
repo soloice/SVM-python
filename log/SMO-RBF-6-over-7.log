@@ -1,0 +1,390 @@
+/usr/bin/python2.7 /home/soloice/PycharmProjects/SVM_RC/src2/svm_test_full.py
+<type 'numpy.ndarray'>
+shape (full): (70000, 784) (70000,)
+(60000, 784) Counter({1.0: 6769, 7.0: 6253, 3.0: 6093, 9.0: 5972, 2.0: 5960, 0.0: 5924, 6.0: 5883, 4.0: 5877, 8.0: 5830, 5.0: 5439})
+(10000, 784) Counter({1.0: 1108, 3.0: 1048, 7.0: 1040, 2.0: 1030, 8.0: 995, 6.0: 993, 9.0: 986, 0.0: 979, 4.0: 947, 5.0: 874})
+(60000, 784) (60000,)
+[ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9.]
+Begin training classifier for label 0.0 and label 1.0 at 2016-05-22, 16:53:10
+(12693, 784) (12693,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+265 SVs!
+Training time for 0.0-vs-1.0: 122.85710597 seconds
+Begin training classifier for label 0.0 and label 2.0 at 2016-05-22, 16:55:13
+(11884, 784) (11884,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+946 SVs!
+Training time for 0.0-vs-2.0: 227.080328941 seconds
+Begin training classifier for label 0.0 and label 3.0 at 2016-05-22, 16:59:00
+(12017, 784) (12017,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+789 SVs!
+Training time for 0.0-vs-3.0: 229.973541975 seconds
+Begin training classifier for label 0.0 and label 4.0 at 2016-05-22, 17:02:50
+(11801, 784) (11801,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+508 SVs!
+Training time for 0.0-vs-4.0: 178.669425964 seconds
+Begin training classifier for label 0.0 and label 5.0 at 2016-05-22, 17:05:49
+(11363, 784) (11363,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1145 SVs!
+Training time for 0.0-vs-5.0: 246.30815506 seconds
+Begin training classifier for label 0.0 and label 6.0 at 2016-05-22, 17:09:55
+(11807, 784) (11807,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+893 SVs!
+Training time for 0.0-vs-6.0: 234.468864202 seconds
+Begin training classifier for label 0.0 and label 7.0 at 2016-05-22, 17:13:50
+(12177, 784) (12177,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+582 SVs!
+Training time for 0.0-vs-7.0: 192.923083067 seconds
+Begin training classifier for label 0.0 and label 8.0 at 2016-05-22, 17:17:03
+(11754, 784) (11754,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+776 SVs!
+Training time for 0.0-vs-8.0: 242.468566895 seconds
+Begin training classifier for label 0.0 and label 9.0 at 2016-05-22, 17:21:06
+(11896, 784) (11896,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+665 SVs!
+Training time for 0.0-vs-9.0: 192.77331996 seconds
+Begin training classifier for label 1.0 and label 2.0 at 2016-05-22, 17:24:18
+(12729, 784) (12729,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+921 SVs!
+Training time for 1.0-vs-2.0: 242.794538975 seconds
+Begin training classifier for label 1.0 and label 3.0 at 2016-05-22, 17:28:21
+(12862, 784) (12862,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+847 SVs!
+Training time for 1.0-vs-3.0: 252.416058064 seconds
+Begin training classifier for label 1.0 and label 4.0 at 2016-05-22, 17:32:34
+(12646, 784) (12646,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+536 SVs!
+Training time for 1.0-vs-4.0: 188.34092617 seconds
+Begin training classifier for label 1.0 and label 5.0 at 2016-05-22, 17:35:42
+(12208, 784) (12208,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+781 SVs!
+Training time for 1.0-vs-5.0: 176.447960854 seconds
+Begin training classifier for label 1.0 and label 6.0 at 2016-05-22, 17:38:39
+(12652, 784) (12652,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+550 SVs!
+Training time for 1.0-vs-6.0: 184.06929493 seconds
+Begin training classifier for label 1.0 and label 7.0 at 2016-05-22, 17:41:43
+(13022, 784) (13022,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+769 SVs!
+Training time for 1.0-vs-7.0: 311.490491867 seconds
+Begin training classifier for label 1.0 and label 8.0 at 2016-05-22, 17:46:55
+(12599, 784) (12599,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1263 SVs!
+Training time for 1.0-vs-8.0: 286.465424776 seconds
+Begin training classifier for label 1.0 and label 9.0 at 2016-05-22, 17:51:41
+(12741, 784) (12741,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+610 SVs!
+Training time for 1.0-vs-9.0: 270.349049091 seconds
+Begin training classifier for label 2.0 and label 3.0 at 2016-05-22, 17:56:12
+(12053, 784) (12053,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1696 SVs!
+Training time for 2.0-vs-3.0: 317.142382145 seconds
+Begin training classifier for label 2.0 and label 4.0 at 2016-05-22, 18:01:29
+(11837, 784) (11837,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1130 SVs!
+Training time for 2.0-vs-4.0: 211.41715312 seconds
+Begin training classifier for label 2.0 and label 5.0 at 2016-05-22, 18:05:01
+(11399, 784) (11399,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1372 SVs!
+Training time for 2.0-vs-5.0: 289.090977192 seconds
+Begin training classifier for label 2.0 and label 6.0 at 2016-05-22, 18:09:50
+(11843, 784) (11843,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1482 SVs!
+Training time for 2.0-vs-6.0: 293.783139944 seconds
+Begin training classifier for label 2.0 and label 7.0 at 2016-05-22, 18:14:44
+(12213, 784) (12213,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1198 SVs!
+Training time for 2.0-vs-7.0: 276.938992977 seconds
+Begin training classifier for label 2.0 and label 8.0 at 2016-05-22, 18:19:21
+(11790, 784) (11790,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1778 SVs!
+Training time for 2.0-vs-8.0: 343.527090073 seconds
+Begin training classifier for label 2.0 and label 9.0 at 2016-05-22, 18:25:04
+(11932, 784) (11932,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1077 SVs!
+Training time for 2.0-vs-9.0: 245.52582407 seconds
+Begin training classifier for label 3.0 and label 4.0 at 2016-05-22, 18:29:10
+(11970, 784) (11970,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+809 SVs!
+Training time for 3.0-vs-4.0: 233.899249077 seconds
+Begin training classifier for label 3.0 and label 5.0 at 2016-05-22, 18:33:04
+(11532, 784) (11532,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+2437 SVs!
+Training time for 3.0-vs-5.0: 394.134137869 seconds
+Begin training classifier for label 3.0 and label 6.0 at 2016-05-22, 18:39:38
+(11976, 784) (11976,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+837 SVs!
+Training time for 3.0-vs-6.0: 214.175447941 seconds
+Begin training classifier for label 3.0 and label 7.0 at 2016-05-22, 18:43:12
+(12346, 784) (12346,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1139 SVs!
+Training time for 3.0-vs-7.0: 244.678738832 seconds
+Begin training classifier for label 3.0 and label 8.0 at 2016-05-22, 18:47:17
+(11923, 784) (11923,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+2141 SVs!
+Training time for 3.0-vs-8.0: 325.013114929 seconds
+Begin training classifier for label 3.0 and label 9.0 at 2016-05-22, 18:52:42
+(12065, 784) (12065,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1326 SVs!
+Training time for 3.0-vs-9.0: 263.081552982 seconds
+Begin training classifier for label 4.0 and label 5.0 at 2016-05-22, 18:57:06
+(11316, 784) (11316,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1102 SVs!
+Training time for 4.0-vs-5.0: 249.789103031 seconds
+Begin training classifier for label 4.0 and label 6.0 at 2016-05-22, 19:01:15
+(11760, 784) (11760,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+956 SVs!
+Training time for 4.0-vs-6.0: 249.487845182 seconds
+Begin training classifier for label 4.0 and label 7.0 at 2016-05-22, 19:05:25
+(12130, 784) (12130,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1266 SVs!
+Training time for 4.0-vs-7.0: 254.264670849 seconds
+Begin training classifier for label 4.0 and label 8.0 at 2016-05-22, 19:09:39
+(11707, 784) (11707,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1041 SVs!
+Training time for 4.0-vs-8.0: 263.287524939 seconds
+Begin training classifier for label 4.0 and label 9.0 at 2016-05-22, 19:14:03
+(11849, 784) (11849,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+2575 SVs!
+Training time for 4.0-vs-9.0: 330.321825027 seconds
+Begin training classifier for label 5.0 and label 6.0 at 2016-05-22, 19:19:33
+(11322, 784) (11322,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1423 SVs!
+Training time for 5.0-vs-6.0: 240.663764954 seconds
+Begin training classifier for label 5.0 and label 7.0 at 2016-05-22, 19:23:34
+(11692, 784) (11692,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1022 SVs!
+Training time for 5.0-vs-7.0: 212.27600503 seconds
+Begin training classifier for label 5.0 and label 8.0 at 2016-05-22, 19:27:06
+(11269, 784) (11269,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+2146 SVs!
+Training time for 5.0-vs-8.0: 366.507454872 seconds
+Begin training classifier for label 5.0 and label 9.0 at 2016-05-22, 19:33:13
+(11411, 784) (11411,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1358 SVs!
+Training time for 5.0-vs-9.0: 284.817342997 seconds
+Begin training classifier for label 6.0 and label 7.0 at 2016-05-22, 19:37:58
+(12136, 784) (12136,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+544 SVs!
+Training time for 6.0-vs-7.0: 204.094846964 seconds
+Begin training classifier for label 6.0 and label 8.0 at 2016-05-22, 19:41:22
+(11713, 784) (11713,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1031 SVs!
+Training time for 6.0-vs-8.0: 211.212488174 seconds
+Begin training classifier for label 6.0 and label 9.0 at 2016-05-22, 19:44:53
+(11855, 784) (11855,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+603 SVs!
+Training time for 6.0-vs-9.0: 198.556696892 seconds
+Begin training classifier for label 7.0 and label 8.0 at 2016-05-22, 19:48:12
+(12083, 784) (12083,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1044 SVs!
+Training time for 7.0-vs-8.0: 222.719109058 seconds
+Begin training classifier for label 7.0 and label 9.0 at 2016-05-22, 19:51:55
+(12225, 784) (12225,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+2458 SVs!
+Training time for 7.0-vs-9.0: 438.527806044 seconds
+Begin training classifier for label 8.0 and label 9.0 at 2016-05-22, 19:59:14
+(11802, 784) (11802,)
+gamma =  0.00127551020408
+Begin SMO5...
+Finish SMO5...
+1496 SVs!
+Training time for 8.0-vs-9.0: 255.87174201 seconds
+Total Training time:  11461.7587261
+Total Predicting time:  23.4299750328
+predicted classes: [0 6 2 ..., 2 8 4]
+
+
+Classification report for classifier <svm.MultiSVM instance at 0x7fe93ad51998>:
+             precision    recall  f1-score   support
+
+        0.0       0.97      0.98      0.98       979
+        1.0       0.97      0.98      0.97      1108
+        2.0       0.93      0.94      0.94      1030
+        3.0       0.94      0.92      0.93      1048
+        4.0       0.92      0.96      0.94       947
+        5.0       0.92      0.91      0.92       874
+        6.0       0.95      0.98      0.97       993
+        7.0       0.95      0.94      0.95      1040
+        8.0       0.94      0.91      0.92       995
+        9.0       0.93      0.91      0.92       986
+
+avg / total       0.94      0.94      0.94     10000
+
+
+Confusion matrix:
+[[ 960    0    3    1    2    2    1    2    8    0]
+ [   1 1084    6    1    1    3    1    2    6    3]
+ [   0    0  969    8   12    6    9   14   10    2]
+ [   1    3   21  966    0   31    2    6   14    4]
+ [   1    0    6    0  907    1    7    2    2   21]
+ [   7    5    5   21    7  796   14    2   12    5]
+ [   6    4    2    0    4    5  972    0    0    0]
+ [   2    2   10    1   19    0    0  981    1   24]
+ [   3   17   10   18    5   15   10    5  905    7]
+ [   4    7    7   17   27    3    2   19    5  895]]
+
+
+For training set!
+
+
+Classification report for classifier <svm.MultiSVM instance at 0x7fe93ad51998>:
+             precision    recall  f1-score   support
+
+        0.0       0.97      0.98      0.98      5924
+        1.0       0.96      0.98      0.97      6769
+        2.0       0.94      0.93      0.93      5960
+        3.0       0.93      0.92      0.93      6093
+        4.0       0.93      0.95      0.94      5877
+        5.0       0.92      0.92      0.92      5439
+        6.0       0.96      0.97      0.96      5883
+        7.0       0.96      0.94      0.95      6253
+        8.0       0.94      0.91      0.93      5830
+        9.0       0.93      0.91      0.92      5972
+
+avg / total       0.94      0.94      0.94     60000
+
+
+Confusion matrix:
+[[5813    1   18    8   10   28   21    1   21    3]
+ [   1 6645   34   20    9   13    4    7   26   10]
+ [  41   30 5553   48   78   15   60   43   78   14]
+ [  12   28  108 5598    9  155   17   53   84   29]
+ [  10   17   29    0 5610    4   31   12   10  154]
+ [  32   53   26  131   33 5008   86    4   51   15]
+ [  34   14   28    1   25   64 5701    0   16    0]
+ [  13   47   64   18   68   13    1 5890   13  126]
+ [  16   99   47   94   35  118   37   22 5317   45]
+ [  28   19   19   81  176   27    0  128   35 5459]]
+
+Process finished with exit code 0
